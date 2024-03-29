@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public bool isPlayer1;
-    public float speed = 10;
+    public float speed = 20;
     public bool isGrounded;
-    public float jumpSpeed = 500;
+    public float jumpSpeed = 600;
     // Start is called before the first frame update
     void Start()
     {
